@@ -1,0 +1,26 @@
+.contenendor-registro{
+      height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+
+.contenendor-registro>div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+input{
+      margin: 15px;
+      border: none;
+      border-bottom: 1px solid black;
+      color:white;
+      outline: none;
+      background-color: transparent;
+}
+
+.button{
+      margin-bottom: 10px;
+}

@@ -1,0 +1,24 @@
+.contenedor{
+      background-image: linear-gradient(130deg,#541F33,#201d78);
+      font-family: rooney-sans,sans-serif;
+}
+
+.boton {
+      width: 10vw;
+      height: 40px;
+      border-radius: 20px;
+      background: rgb(96,9,240);
+      background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+      border: none;
+      
+    }
+    .boton:before {
+      height: 0%;
+      width: 2px;
+    }
+    .boton:hover {
+      box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                  -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+        inset -4px -4px 6px 0 rgba(255,255,255,.2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    }

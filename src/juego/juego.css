@@ -1,0 +1,90 @@
+.contenedor-juego{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 76vh;
+      width: 100vw;
+}
+
+.contenedor-pokemons-juego{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+      width: 80%;
+}
+
+.imagen-juego{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+}
+
+.imagen-juego>img{
+      opacity: 0.5;
+}
+
+.imagen-juego>h1{
+      margin-bottom: 100px;
+      position: absolute;
+      align-self: center;
+      z-index: 100;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: white;
+}
+
+.imagen-1>p{
+      position: absolute;
+      align-self: center;
+      z-index: 100;
+      font-weight: 300;
+      color: white;
+}
+
+.imagen-1>p:nth-child(2){
+      margin-top: 100px;
+}
+
+.imagen-2>button{
+      position: absolute;
+      align-self: center;
+      z-index: 100;
+      font-weight: 300;
+      background-color: transparent;
+      color: white;
+      border-radius: 20px;
+      height: 50px;
+      width: 150px;
+}
+
+.imagen-2>button:hover{
+      background-color: white;
+      color: black;
+}
+
+.imagen-2>button:nth-child(2){
+      margin-top: 150px;
+}
+
+.imagen-2>button:nth-child(3){
+      margin-top: 25px;
+}
+
+.estadisticas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.contenendor-puntuacion{
+      width: 20vw;
+      display: flex;
+      justify-content: space-between;
+}
