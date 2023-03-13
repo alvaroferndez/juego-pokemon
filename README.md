@@ -1,3 +1,7 @@
+Page created with react, firebase and the pokeapi pokemon api: https://pokeapi.co/, with information about all the pokemons and a mini-game to guess the weight.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
